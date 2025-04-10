@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Definindo para ES6 (ou superior)
+    "module": "CommonJS", // Usando CommonJS para Node.js
+    "moduleResolution": "node", // Resolução de módulos no estilo Node
+    "experimentalDecorators": true, // Habilita suporte a decoradores
+    "emitDecoratorMetadata": true, // Geração de metadados de decoradores
+    "esModuleInterop": true, // Suporte a importações de módulos ES6
+    "strict": true, // Habilita todas as verificações de tipo estritas
+    "skipLibCheck": true, // Ignora verificações de bibliotecas
+    "forceConsistentCasingInFileNames": true, // Garante consistência nos nomes dos arquivos
+    "outDir": "./dist", // Pasta de saída do código compilado
+    "baseUrl": "./src", // Base do código fonte
+    "paths": {
+      "@nestjs/*": ["node_modules/@nestjs/*"]
+    }
+  },
+  "include": ["src/**/*.ts"], // Incluir todos os arquivos TS da pasta src
+  "exclude": ["node_modules"] // Excluir a pasta node_modules
+}

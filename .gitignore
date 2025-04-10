@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Environment Files
+.env
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Templated files
+*.swp
+*.swo
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm package files
+package-lock.json
+yarn.lock
+
+# Build directories
+build/
